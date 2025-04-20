@@ -1,0 +1,28 @@
+# Django core dependencies
+asgiref==3.8.1  # ASGI specification, required by Django for async support
+Django==5.2  # Web framework for building the application
+
+# Django REST framework and related packages
+djangorestframework==3.16.0  # Framework for building REST APIs
+djangorestframework_simplejwt==5.5.0  # JWT authentication for Django REST framework
+drf-yasg==1.21.10  # Yet Another Swagger Generator for Django REST framework
+
+# Cross-Origin Resource Sharing
+django-cors-headers==4.7.0  # Handles CORS headers for cross-domain API requests
+
+# Database connector
+psycopg2==2.9.10  # PostgreSQL database adapter for Python
+
+# Server and deployment tools
+gunicorn==23.0.0  # WSGI HTTP server for deploying Django in production
+whitenoise==6.9.0  # Static file serving for web applications
+
+# Utility packages
+PyJWT==2.9.0  # JSON Web Token implementation
+pytz==2025.2  # Timezone definitions for Python
+sqlparse==0.5.3  # SQL parsing and formatting library
+inflection==0.5.1  # String transformation library (used by drf-yasg)
+packaging==24.2  # Core utilities for Python packages
+PyYAML==6.0.2  # YAML parser and emitter for Python
+uritemplate==4.1.1  # Implementation of RFC6570 URI Templates
+pillow==10.1.0  # Python Imaging Library (PIL) fork for image processing and manipulation
