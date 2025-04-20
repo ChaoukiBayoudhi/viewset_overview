@@ -5,7 +5,6 @@ Django==5.2  # Web framework for building the application
 # Django REST framework and related packages
 djangorestframework==3.16.0  # Framework for building REST APIs
 djangorestframework_simplejwt==5.5.0  # JWT authentication for Django REST framework
-drf-yasg==1.21.10  # Yet Another Swagger Generator for Django REST framework
 
 # Cross-Origin Resource Sharing
 django-cors-headers==4.7.0  # Handles CORS headers for cross-domain API requests
